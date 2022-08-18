@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .add_border{
+       @apply border border-b-8 border-line
+    }
+
+    .test_border{
+        @apply border border-red-700 
+    }
+
+    .footer-text{
+        @apply self-center block w-40 hover:underline
+    }
+
+}
